@@ -1,0 +1,196 @@
+/* Navbar */
+#main-navbar{
+    z-index: 100;
+    font-family: Helvetica;
+    font-weight: bold;
+    background-color: #f0ee6b;
+}
+.navbar-brand{
+    font-family: Bella;
+    margin-top: 2px;
+}
+#main-navbar a{
+    color: #7092be;
+}
+.navbar{
+    height: 65px;    
+}
+
+#main-navbar a:hover, #main-navbar .active{
+    border-color:#7092be;
+    transition: border-color 500ms;
+}
+
+.main-logo{
+    height: 52px;
+}
+
+/* Navbar End */
+
+/* Home */
+#home{
+    background-color: #7092be;
+    background-image: url(img/Фон\ для\ сторис.jpg);
+    background-blend-mode:color-burn;
+}
+#home img{
+    height: 500px;
+}
+#nama{
+    margin-top: 180px;
+    margin-left: 100px;
+}
+#nama h1{
+    font-family: Helvetica;
+    font-weight: bolder;
+    color: #f0ee6b;
+    -webkit-text-stroke: 1px #a64c4c ;
+}
+#nama h5{
+    color: #f3f3f3;
+    font-family: Helvetica;
+    font-weight:lighter;
+}
+#pro1{
+    margin-top: 80px;
+}
+/* Home End */
+
+/* about */
+#about{
+    background-color: #7092be;
+    background-image: url(img/Фон\ для\ сторис.jpg);
+    background-blend-mode:color-burn;
+}
+
+.about img{
+    float: right;
+    width: 300px;
+    margin-top: 50px;
+}
+.me{
+    margin-top: 40px;
+    margin-left: 40px;
+    color: #f3f3f3;
+    font-family: Helvetica;
+}
+.me h1{
+    font-family: Helvetica;
+    font-weight: bolder;
+    color: #f0ee6b;
+    -webkit-text-stroke: 1px #a64c4c;
+}
+.me p{
+    text-align: justify;
+}
+.me span{
+    background-color: #f9b29c6c;
+}
+.boxx{
+    font-family: Helvetica;
+    font-weight: bold;
+    color: #f0ee6b;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    margin: 2rem;
+}
+/* About End */
+
+/* Skill */
+#skill{
+    background-color: #7092be;
+    background-image: url(img/Фон\ для\ сторис.jpg);
+    background-blend-mode:color-burn;
+}
+.row h1{
+    font-family: Helvetica;
+    font-weight: bolder;
+    color: #f0ee6b;
+    -webkit-text-stroke: 1px #a64c4c;
+}
+.boxxx{
+    font-family: Helvetica;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7rem;
+    margin-left: 17rem;
+    margin-right: 17rem;
+    color: #f3f3f3;
+}
+.boxskill h3{
+    text-decoration: 2px underline;
+    text-decoration-color: #f0ee6b;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+/* Edu */
+#education{
+    background-color: #7092be;
+    background-image: url(img/Фон\ для\ сторис.jpg);
+    background-blend-mode:color-burn;
+}
+.car{
+    margin-left: 15rem;
+    margin-right: 15rem;
+    font-family: Helvetica;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* Edu end */
+
+/* Contact */
+#contact{
+    background-color: #7092be;
+    background-image: url(img/Фон\ для\ сторис.jpg);
+    background-blend-mode:color-burn;
+}
+.con h3{
+    color: #f3f3f3;
+    font-family: Helvetica;
+}
+.con h2{
+    color: #f3f3f3;
+    font-family: Helvetica;
+}
+
+.containerr{
+    font-family: Helvetica;
+}
+.bot{
+    padding-bottom: 20px;
+}
+.bot button{
+    background-color: #f0ee6b;
+    color: #a64c4c;
+    font-family: Helvetica;
+}
+/* contact end */
+/* footer */
+footer{
+    background-color: #a64c4c;
+}
+.fut span{
+    font-family: Bella;
+    color: #7092be;
+    -webkit-text-stroke: 0.3px #f0ee6b;
+}
+
+#home, #about, #skill{
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+#education{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+#contact{
+    padding-top: 50px;
+}
+/* footer end */
+
+@media (min-widht: 1200px) {
+    .container{
+        max-width: 1140px;
+    }
+}
